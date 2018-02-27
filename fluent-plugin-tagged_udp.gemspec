@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-tagged_udp"
-  spec.version       = "0.0.7"
+  spec.version       = "0.0.8"
   spec.authors       = ["Toyokazu Akiyama"]
   spec.email         = ["toyokazu@gmail.com"]
 
-  spec.summary       = %q{fluentd input/output plugin for tagged UDP message}
-  spec.description   = %q{fluentd input/output plugin for tagged UDP message}
-  spec.homepage      = "https://github.com/toyokazu/fluent-plugin-tagged_udp"
+  spec.summary       = %q{fluentd input/output plugin for tagged UDP message / customized}
+  spec.description   = %q{fluentd input/output plugin for tagged UDP message / customized}
+  spec.homepage      = "https://github.com/cloudsnack/fluent-plugin-tagged_udp"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.gsub(/images\/[\w\.]+\n/, "").split($/)
